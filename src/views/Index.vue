@@ -166,7 +166,7 @@ export default {
     background-image: url("/image/index/sosuo.png");
     background-repeat: no-repeat;
     background-position-x: 45px;
-    background-position-y: 13px;
+    background-position-y: 18px;
 }
 .search>div input{
     width: 490px;
