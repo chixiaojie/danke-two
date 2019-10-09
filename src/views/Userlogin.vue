@@ -6,7 +6,8 @@
                     <router-link to="/">
                         <img src="image/login/login.png" alt="">
                     </router-link>
-                    <span>欢迎您登录或注册</span>
+                    
+                    <span>欢迎您登录或<router-link to="/reg">注册</router-link></span>
                 </div>
                 <div class="body">
                     <h4 class="text-center mb-0">手机登录</h4>

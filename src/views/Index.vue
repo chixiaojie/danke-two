@@ -41,7 +41,7 @@
                 </div>
                 <div class="hbot">
                     <div class="item" v-for="(elem,i) of housing" :key="i">
-                        <img :src="elem.img" alt="">
+                        <router-link to="detail"><img :src="elem.img" alt=""></router-link>
                         <p class="mb-0 mt-3 ml-2"><span v-text="elem.price"></span>元/月</p>
                         <p class="mb-0 ml-2" v-text="elem.title"></p>
                         <p class="mb-0 ml-2" v-text="elem.title1"></p>

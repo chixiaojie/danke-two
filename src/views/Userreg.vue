@@ -4,7 +4,8 @@
             <div class="container">
                 <div class="top">
                     <img src="image/login/login.png" alt="">
-                    <span>欢迎您登录或注册</span>
+                    
+                    <span>欢迎您<router-link to="/login">登录</router-link>或注册</span>
                 </div>
                 <div class="body">
                     <h4 class="text-center mb-0">手机注册</h4>
